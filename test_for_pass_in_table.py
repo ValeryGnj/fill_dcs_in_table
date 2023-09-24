@@ -2,7 +2,6 @@ from docxtpl import DocxTemplate
 import openpyxl
 
 
-
 def main():
 
     wb = openpyxl.load_workbook('data_staff_pass_fishport.xlsx', data_only=True)
